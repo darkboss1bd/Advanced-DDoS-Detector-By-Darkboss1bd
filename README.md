@@ -24,10 +24,12 @@ python darkboss1bd_ddos.py --log /var/log/nginx/access.log
 
 
 ## 🛠 Setup Guide:
+```
+bash
 Install Required Libraries:
 pip install geoip2 requests colorama pyfiglet pandas
 Download GeoLite2-City.mmdb from MaxMind and place it in your script directory.
-
+```
 
 ```
 bash
